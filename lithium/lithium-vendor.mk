@@ -34,21 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/firmware/a530_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b02 \
     vendor/xiaomi/lithium/proprietary/vendor/firmware/a530_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.elf \
     vendor/xiaomi/lithium/proprietary/vendor/firmware/a530_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.mdt \
-    vendor/xiaomi/lithium/proprietary/vendor/firmware/tfa9891.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa9891.cnt \
-    vendor/xiaomi/lithium/proprietary/vendor/etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_auo_fte716_1080p_video_mode_dsi_panel.xml \
-    vendor/xiaomi/lithium/proprietary/vendor/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sharp_fte716_1080p_video_mode_dsi_panel.xml \
-    vendor/xiaomi/lithium/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    vendor/xiaomi/lithium/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/xiaomi/lithium/proprietary/vendor/etc/silence_short.wav:$(TARGET_COPY_OUT_VENDOR)/etc/silence_short.wav \
-    vendor/xiaomi/lithium/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
-    vendor/xiaomi/lithium/proprietary/lib/libultrasound.so:system/lib/libultrasound.so \
-    vendor/xiaomi/lithium/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
-    vendor/xiaomi/lithium/proprietary/lib64/libnotifyaudiohal.so:system/lib64/libnotifyaudiohal.so \
-    vendor/xiaomi/lithium/proprietary/lib64/libultrasound.so:system/lib64/libultrasound.so \
-    vendor/xiaomi/lithium/proprietary/usr/idc/usf_tsc.idc:system/usr/idc/usf_tsc.idc \
-    vendor/xiaomi/lithium/proprietary/usr/idc/usf_tsc_ext.idc:system/usr/idc/usf_tsc_ext.idc \
-    vendor/xiaomi/lithium/proprietary/usr/idc/usf_tsc_ptr.idc:system/usr/idc/usf_tsc_ptr.idc \
-    vendor/xiaomi/lithium/proprietary/vendor/firmware/libpn551_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn551_fw.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/libpn551_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn551_fw.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libactuator_dw9763_a8_o-film.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763_a8_o-film.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libactuator_dw9763_a8_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763_a8_qtech.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libchromatix_ov16880_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov16880_common.so \

@@ -34,13 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/scorpio/proprietary/vendor/firmware/a530_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.b02 \
     vendor/xiaomi/scorpio/proprietary/vendor/firmware/a530_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.elf \
     vendor/xiaomi/scorpio/proprietary/vendor/firmware/a530_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_zap.mdt \
-    vendor/xiaomi/scorpio/proprietary/vendor/etc/qdcm_calib_data_lgd_sw43101_p2_video_fhd_oled_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_lgd_sw43101_p2_video_fhd_oled_panel.xml \
-    vendor/xiaomi/scorpio/proprietary/vendor/etc/qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_lgd_sw43101_video_fhd_oled_panel.xml \
-    vendor/xiaomi/scorpio/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    vendor/xiaomi/scorpio/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/xiaomi/scorpio/proprietary/lib/hw/fingerprint.fpc.so:system/lib/hw/fingerprint.fpc.so \
-    vendor/xiaomi/scorpio/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
-    vendor/xiaomi/scorpio/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so \
+    vendor/xiaomi/scorpio/proprietary/vendor/lib/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libSonyIMX318PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX318PdafLibrary.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
     vendor/xiaomi/scorpio/proprietary/vendor/lib/libactuator_ak7371_a4_primax.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_a4_primax.so \

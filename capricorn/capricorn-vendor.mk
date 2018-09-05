@@ -43,8 +43,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/capricorn/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/capricorn/proprietary/vendor/etc/silence_short.wav:$(TARGET_COPY_OUT_VENDOR)/etc/silence_short.wav \
-    vendor/xiaomi/capricorn/proprietary/vendor/firmware/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548ad_fw.so \
-    vendor/xiaomi/capricorn/proprietary/vendor/lib/hw/fingerprint.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.qcom.so \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_jdi_j1_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/capricorn/proprietary/vendor/lib/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libSonyIMX378PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX378PdafLibrary.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libactuator_ak7371_a7_liteon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_a7_liteon.so \
     vendor/xiaomi/capricorn/proprietary/vendor/lib/libactuator_ak7371_a7_semco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_a7_semco.so \
