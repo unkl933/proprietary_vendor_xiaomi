@@ -113,15 +113,5 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_ov5675_primax.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5675_primax.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_s5k3p3_qtech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3_qtech.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib/libmmcamera_s5k3p3_qtech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3_qtech_eeprom.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libproxadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libproxadapter.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libproxsockadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libproxsockadapter.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libual.so:$(TARGET_COPY_OUT_VENDOR)/lib/libual.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libualutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libualutil.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib/libusndroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libusndroute.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib64/libproxadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libproxadapter.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib64/libproxsockadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libproxsockadapter.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib64/libqcproximity.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcproximity.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib64/libual.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libual.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib64/libualutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libualutil.so \
-    vendor/xiaomi/lithium/proprietary/vendor/lib64/libusndroute.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libusndroute.so \
+    vendor/xiaomi/lithium/proprietary/vendor/lib/rfsa/adsp/libdirac-appi.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdirac-appi.so \
     vendor/xiaomi/lithium/proprietary/vendor/lib64/sensors.elliptic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.elliptic.so
