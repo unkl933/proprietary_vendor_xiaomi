@@ -1,1 +1,1 @@
-# Xiaomi Mi5 Vrndor Tree
+# Xiaomi Mi5 Vendor Tree
