@@ -593,7 +593,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
-#    libantradio \
+    libantradio \
     libthermalclient \
     libsdm-disp-vndapis \
     SmartcardService \
@@ -607,6 +607,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     dpmserviceapp \
     ims \
-#    WfdCommon \
+    WfdCommon \
     ReferenceFeature \
     chargeonlymode
