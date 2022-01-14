@@ -607,4 +607,5 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     WfdCommon \
-    ReferenceFeature
+    ReferenceFeature \
+    chargeonlymode
