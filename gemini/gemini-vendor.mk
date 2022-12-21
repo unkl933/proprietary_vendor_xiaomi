@@ -1,5 +1,6 @@
 # Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017-2019 The LineageOS Project
+# Copyright (C) 2022 The QASSA
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,11 +20,22 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/gemini
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/gemini/proprietary/etc/default-permissions/miuicamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/miuicamera-permissions.xml \
+    vendor/xiaomi/gemini/proprietary/etc/device_features/gemini.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/gemini.xml \
+    vendor/xiaomi/gemini/proprietary/etc/permissions/miuicamera-privapp-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/miuicamera-privapp-permissions.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/imx298_liteon_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx298_liteon_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/imx298_semco_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx298_semco_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/msm8996_camera.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/ov4688_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov4688_chromatix.xml \
     vendor/xiaomi/gemini/proprietary/etc/camera/ov4688_primax_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov4688_primax_chromatix.xml \
+    vendor/xiaomi/gemini/proprietary/lib/libCameraEffectJNI.so:$(TARGET_COPY_OUT_SYSTEM)lib/libCameraEffectJNI.so \
+    vendor/xiaomi/gemini/proprietary/lib/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_SYSTEM)lib/libmorpho_memory_allocator.so \
+    vendor/xiaomi/gemini/proprietary/lib/libmorpho_panorama.so:$(TARGET_COPY_OUT_SYSTEM)lib/libmorpho_panorama.so \
+    vendor/xiaomi/gemini/proprietary/lib/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_SYSTEM)lib/libmorpho_panorama_gp.so \
+    vendor/xiaomi/gemini/proprietary/lib64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_SYSTEM)lib64/libCameraEffectJNI.so \
+    vendor/xiaomi/gemini/proprietary/lib64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_SYSTEM)lib64/libmorpho_memory_allocator.so \
+    vendor/xiaomi/gemini/proprietary/lib64/libmorpho_panorama.so:$(TARGET_COPY_OUT_SYSTEM)lib64/libmorpho_panorama.so \
+    vendor/xiaomi/gemini/proprietary/lib64/libmorpho_panorama_gp.so:$(TARGET_COPY_OUT_SYSTEM)lib64/libmorpho_panorama_gp.so \
     vendor/xiaomi/gemini/proprietary/vendor/firmware/tfa9891.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa9891.cnt \
     vendor/xiaomi/gemini/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/xiaomi/gemini/proprietary/vendor/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml \
