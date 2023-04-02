@@ -74,6 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/system/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
     vendor/xiaomi/msm8996-common/proprietary/system/etc/wfdconfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfig.xml \
     vendor/xiaomi/msm8996-common/proprietary/system/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfigsink.xml \
+    vendor/xiaomi/msm8996-common/proprietary/system/etc/adreno.prop:$(TARGET_COPY_OUT_SYSTEM)/etc/adreno.prop \
     vendor/xiaomi/msm8996-common/proprietary/system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/xiaomi/msm8996-common/proprietary/system/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/xiaomi/msm8996-common/proprietary/system/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
@@ -190,6 +191,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/xiaomi/msm8996-common/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/xiaomi/msm8996-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/etc/permissions/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/etc/permissions/android.hardware.vulkan.compute.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute.xml \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/etc/permissions/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.xml \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/etc/permissions/android.hardware.vulkan.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level.xml \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/etc/permissions/android.hardware.vulkan.level-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level-0.xml \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/etc/permissions/android.hardware.vulkan.version.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version.xml \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/etc/permissions/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_1.xml \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/etc/permissions/android.software.vulkan.deqp.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
     vendor/xiaomi/msm8996-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/msm8996-common/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     vendor/xiaomi/msm8996-common/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
@@ -201,6 +210,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
     vendor/xiaomi/msm8996-common/proprietary/vendor/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_VENDOR)/framework/qti-vzw-ims-internal.jar \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/eglSubDriverAndroid.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
@@ -229,6 +239,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libq3dtools_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libq3dtools_esx.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqseed3.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
@@ -250,8 +263,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libEGL_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libeglc2d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeglc2d.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGLESv1_CM_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGLESv2_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libgpustats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpustats.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
@@ -450,6 +467,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/hw/vulkan.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8996.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/eglSubDriverAndroid.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsSDP.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
@@ -463,10 +481,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/lib-uceservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-uceservice.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libEGL_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libDRPlugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDRPlugin.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libq3dtools_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libq3dtools_esx.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libqseed3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqseed3.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
@@ -500,6 +522,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libevent_observer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libevent_observer.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvadsp_stub.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvopt.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGLESv1_CM_adreno.so \
+    vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGLESv2_adreno.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflp.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so \
     vendor/xiaomi/msm8996-common/proprietary/vendor/lib64/libgpustats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpustats.so \

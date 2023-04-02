@@ -1,0 +1,19 @@
+#
+### Adreno Team Graphics Drivers prop file
+#
+ro.adreno.android=Android Q
+ro.adreno.sdk=29
+ro.adreno.arch=arm64
+ro.adreno.soc=msm8996
+#
+ro.adreno.series=500
+ro.adreno.edition=OpenGL and Vulkan
+ro.adreno.version=5.5
+#
+ro.adreno.opengl=V@0490.0
+ro.adreno.vulkan=1.1.128
+#
+## min sdk 29
+#
+
+
